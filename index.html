@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>drumpad</title>
+</head>
+<body>
+    <h1>SoundBoard</h1>
+    <p>vous êtes prié(e)s de baisser le son pour des raisons de confort.</p>
+    <div class="pad">
+        <div data-key="65" class="key">
+            <kbd>A</kbd>
+            <span class="sound">mouille</span>
+        </div>
+        <div data-key="90" class="key">
+            <kbd>Z</kbd>
+            <span class="sound">gros</span>
+        </div>
+        <div data-key="69" class="key">
+            <kbd>E</kbd>
+            <span class="sound">dire</span>
+        </div>
+        <div data-key="81" class="key">
+            <kbd>Q</kbd>
+            <span class="sound">oof</span>
+        </div>
+        <div data-key="83" class="key">
+            <kbd>S</kbd>
+            <span class="sound">ça pue</span>
+        </div>
+        <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span class="sound">fus..</span>
+        </div>
+        <div data-key="87" class="key">
+            <kbd>W</kbd>
+            <span class="sound">ui</span>
+        </div>
+        <div data-key="88" class="key">
+            <kbd>X</kbd>
+            <span class="sound">mario</span>
+        </div>
+        <div data-key="67" class="key">
+            <kbd>C</kbd>
+            <span class="sound">surprise</span>
+        </div>
+        <!-- Générer les 8 boxes restantes correspondant aux fichiers audio à jouer -->
+    </div>
+    <!-- Audio source -->
+    <audio data-key="65" src="./sounds/dans-sa-mouille.mp3"></audio>
+    <audio data-key="90" src="./sounds/on_en_a_gros.mp3"></audio>
+    <audio data-key="69" src="./sounds/dire.mp3"></audio>
+    <audio data-key="81" src="./sounds/oof.mp3"></audio>
+    <audio data-key="83" src="./sounds/kaamelott-theme.mp3""></audio>
+    <audio data-key="68" src="./sounds/fus-ro-dah.mp3"></audio>
+    <audio data-key="87" src="./sounds/ui-joyca.mp3"></audio>
+    <audio data-key="88" src="./sounds/mario-burned.mp3"></audio>
+    <audio data-key="67" src="./sounds/surprise.mp3"></audio>
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>
