@@ -46,6 +46,9 @@ p{
   user-select: none;
   transform: translate(0, 0);
 }
+.beat{
+  margin-left: 36.5%;
+}
 .sound {
   font-size: 14px;
   text-transform: uppercase;
